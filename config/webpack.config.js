@@ -107,6 +107,6 @@ module.exports = {
       }
     }, { reload: false })
   ],
-  devtool: debug ? 'cheap-module-source-map' : 'source-map',
+  devtool: debug ? 'cheap-module-source-map' : '',
   bail: !debug
 }
